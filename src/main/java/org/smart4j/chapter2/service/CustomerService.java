@@ -8,7 +8,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
-import static org.smart4j.chapter2.util.PropsUtil.LOGGER;
 
 public class CustomerService {
     private static final Logger LOGGER= LoggerFactory.getLogger(DatabaseHelper.class);
