@@ -17,8 +17,6 @@ import java.util.Properties;
 
 //数据库操作助手类
 public  class DatabaseHelper {
-
-
     private static  final QueryRunner QUERY_RUNNER=new QueryRunner();
 
     private static final ThreadLocal<Connection> CONNECTION_HOLDER=new ThreadLocal<Connection>();
